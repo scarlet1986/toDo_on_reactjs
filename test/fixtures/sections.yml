@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: sections
+#
+#  id         :integer          not null, primary key
+#  visable    :boolean
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  visable: false
+
+two:
+  visable: false
