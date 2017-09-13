@@ -5,20 +5,14 @@ ActiveAdmin.register List do
     selectable_column
     id_column
     column :title
-    # column :user_id
-    column :items do |item|
-      Item.find(item.item_id)
-    end
+    column :user
     actions
   end
 
   form do |f|
     f.inputs do
       f.input :title
-      f.input :user
-      # f.has_many :items do |item|
-      #   item.input :body
-      # end
+      f.input :user_id
     end
     f.actions
   end
