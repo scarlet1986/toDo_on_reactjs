@@ -53,9 +53,9 @@ ActiveRecord::Schema.define(version: 20170913120330) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "list_id"
-    t.bigint "sections_id"
+    t.bigint "section_id"
     t.index ["list_id"], name: "index_items_on_list_id"
-    t.index ["sections_id"], name: "index_items_on_sections_id"
+    t.index ["section_id"], name: "index_items_on_section_id"
   end
 
   create_table "lists", force: :cascade do |t|
