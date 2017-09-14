@@ -31,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'pg'
 gem 'devise'
+gem "react-rails"
+gem 'webpacker', '~> 3.0'
 
 gem 'activeadmin'
 
